@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/Registration", {
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-    // useCreateIndex:true
+mongoose
+  .connect("mongodb+srv://akshat2912003:root@cluster0.uh8d0uz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 }).then(() =>{
     console.log(`connection successful`);
 }).catch((err) =>{
