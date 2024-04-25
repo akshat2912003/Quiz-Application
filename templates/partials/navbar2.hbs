@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/navbar2.css">
+  <script src="https://kit.fontawesome.com/d4b6d93ef0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+<nav>
+    <div class="container">
+        <a href="#" class="company-logo">
+            <img src="/images/logo2-removebg-preview.png" alt="company-logo">
+        </a>
+    </div>
+    <a href="#" class="hov">Home</a>
+
+    <div class="dropdown">
+    <button class="dropbtn hov">Subjects  <i class="fa-solid fa-caret-down"></i></i></button>
+    <div class="dropdown-content">
+        <a href="/dsa" class="hov">DSA</a>
+        <a href="/dbms" class="hov">DBMS</a>
+        <a href="/osmcq" class="hov">OS</a>
+        <a href="cn" class="hov">CN</a>
+        <a href="/allsub" class="hov"><i class="fa-solid fa-magnifying-glass"></i> View All</a>
+    </div>
+    </div>
+
+    <div class="dropdown">
+    <button class="dropbtn hov">GATE  <i class="fa-solid fa-caret-down"></i></button>
+    <div class="dropdown-content">
+        <a href="/gatecn">Networking</a>
+        <a href="/gateca">Computer Architecture</a>
+        <a href="#">Engineering Mathematics</a>
+        <a href="/allsub"><i class="fa-solid fa-magnifying-glass"></i> View All</a>
+    </div>
+    </div>
+
+    <a class="hov" href="#">Notes</a>
+
+    <div class="dropdown">
+    <button class="dropbtn hov">Programming  <i class="fa-solid fa-caret-down"></i></button>
+    <div class="dropdown-content">
+        <a href="#">Python</a>
+        <a href="/c">C Language</a>
+        <a href="/cpp">CPP</a>
+        <a href="#">Java</a>
+        <a href="/allsub"><i class="fa-solid fa-magnifying-glass"></i> View All</a>
+    </div>
+    </div>
+    <p></p>
+    <p></p><p></p>
+    <div class="main-login">
+        {{#if userEmail}}
+        <div class="main1">
+            <p>{{userEmail}}</p>
+            <a class="log hovering" href="/index1">Logout</a>
+        </div>
+        {{else}}
+        <div class="login">
+            <a class="ab hov" href="/login">Login</a>
+            <a class="abc hov" href="/register">Signup</a>
+        </div>
+    {{/if}}
+    </div>
+</nav>

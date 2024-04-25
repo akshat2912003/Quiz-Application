@@ -1,0 +1,759 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5eaf3;
+  }
+
+  /* Navigation bar styles */
+  nav {
+    background: rgb(11,10,36);
+    background: linear-gradient(90deg, rgba(11,10,36,1) 0%, rgba(128,134,126,1) 47%, rgba(64,89,95,1) 100%);
+    overflow: hidden;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 0px;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .hov:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .text{
+    /* background-color: #198754; */
+    height: 300px;
+    width: 750px;
+    margin: 20px 0px 0px 5px;
+  }
+
+  .p1{
+    /* background-color: #198754; */
+    height: 200px;
+    width: 400px;
+    margin: 40px 0px 0px 175px;
+  }
+
+  .img img{
+    height: 450px;
+    width: 850px;
+    margin: -310px 0px 0px 620px;
+  }
+  /* Dropdown styles */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .container img{
+    height: 66px;
+    width: 220px;
+    margin-top: 3px;
+  }
+
+  .login{
+    display: flex;
+    gap: 50px;
+  }
+
+  .ab{
+    height: 18px;
+    width: 40px;
+    background-color: rgb(119, 151, 169);
+    border-radius: 10px;
+  }
+  .abc{
+    height: 18px;
+    width: 58px;
+    background-color: rgb(119, 151, 169);
+    border-radius: 10px;
+  }
+
+
+  /* second section */
+  .second{
+    height: 500px;
+    border-bottom-right-radius: 300px;
+    /* border-bottom-left-radius: 120px; */
+    background: rgb(11,10,36);
+    background: linear-gradient(90deg, rgba(11,10,36,1) 0%, rgba(128,134,126,1) 47%, rgba(64,89,95,1) 100%);
+    text-align: center;
+    margin-top: -27px;
+  }
+
+  .second hr{
+    width: 1150px;
+  }
+  .second h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(222, 222, 222);
+    margin: 5px 5px 5px 5px;
+  }
+
+  .second .p1{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .second .p2{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+
+
+  /* Third section */
+
+  .third{
+    display: flex;
+    margin-top: 130px;
+    gap: 30px;
+    margin-left: 140px;
+  }
+
+  .third img{
+    height: 55px;
+    width: 55px;
+  }
+
+  .sec1{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #c167ef;
+    text-align: center;
+  }
+
+  .sec2{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #198754;
+    text-align: center;
+  }
+
+  .sec3{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #0dcaf0;
+    text-align: center;
+  }
+
+  .sec4{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #ffc107;
+    text-align: center;
+  }
+
+  .txt{
+    margin-top: 20px;
+  }
+
+  
+  /* fourth section */
+  .fourth{
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .fourth h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  .fourth p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+  }
+  .fourth hr{
+    width: 800px;
+  }
+
+
+  /* fifth section */
+
+  .fifth{
+    display: flex;
+    gap: 25px;
+    margin: 50px 0px 0px 135px;
+  }
+
+  .fifth a{
+    text-decoration: none;
+  }
+
+  .fifth img{
+    height: 190px;
+    width: 290px;
+    border-radius: 15px;
+  }
+
+  .core1{
+    background-color: #ffffff;
+    height: 370px;
+    width: 290px;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease; 
+  }
+
+  .core2{
+    background-color: #ffffff;
+    height: 370px;
+    width: 290px;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease; /* Add smooth transition for the effect */
+  }
+
+  .core3{
+    background-color: #ffffff;
+    height: 370px;
+    width: 290px;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease; /* Add smooth transition for the effect */
+  }
+
+  .core4{
+    background-color: #ffffff;
+    height: 370px;
+    width: 290px;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease; /* Add smooth transition for the effect */
+  }
+
+  .hover:hover{
+    box-shadow: 0 0 10px 0px #3b3b3b;
+    cursor: pointer;
+  }
+
+  .h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+  .p5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+  /* slider section */
+  .subjects{
+    display: flex;
+    justify-content: end;
+    margin: 80px 195px 0px 0px;
+  }
+  .subjects h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .subjects:hover{
+    color: #1196ef;
+    cursor: pointer;
+  }
+  .subjects a{
+    text-decoration: none;
+  }
+
+
+  /* sixth section */
+
+  .sixth{
+    display: flex;
+    text-align: center;
+    margin: 60px 0px 0px 200px;
+  }
+
+  .imges {
+    height: 470px;
+    width: 510px;
+    border-radius: 43% 57% 61% 39% / 42% 40% 60% 58%;
+    background-color: #cdd6d8;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .sixth img{
+    height: 450px;
+    width: 400px;
+    margin: 5px 0px 0px 30px;
+  }
+
+  .sixth h3{
+    height: 300px;
+    width: 400px;
+    color: rgb(106, 101, 101);
+    margin: 100px 0px 0px 140px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+  }
+
+
+  /* Seventh */
+
+    /* fourth section */
+    .seventh{
+      margin-top: 150px;
+      text-align: center;
+    }
+  
+    .seventh h1{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 35px;
+    }
+  
+    .seventh p{
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 20px;
+    }
+    .seventh hr{
+      width: 800px;
+    }
+
+
+    /* eighth section */
+
+    .eighth{
+      display: flex;
+      gap: 25px;
+      margin: 80px 0px 0px 135px;
+    }
+  
+    .eighth a{
+      text-decoration: none;
+    }
+  
+    .eighth img{
+      height: 190px;
+      width: 290px;
+      border-radius: 15px;
+    }
+  
+    .core1{
+      background-color: #ffffff;
+      height: 370px;
+      width: 290px;
+      border-radius: 15px;
+      transition: box-shadow 0.3s ease; 
+    }
+  
+    .core2{
+      background-color: #ffffff;
+      height: 370px;
+      width: 290px;
+      border-radius: 15px;
+      transition: box-shadow 0.3s ease; /* Add smooth transition for the effect */
+    }
+  
+    .core3{
+      background-color: #ffffff;
+      height: 370px;
+      width: 290px;
+      border-radius: 15px;
+      transition: box-shadow 0.5s ease; /* Add smooth transition for the effect */
+    }
+  
+    .core4{
+      background-color: #ffffff;
+      height: 370px;
+      width: 290px;
+      border-radius: 15px;
+      transition: box-shadow 0.3s ease; /* Add smooth transition for the effect */
+    }
+  
+    .hover:hover{
+      box-shadow: 0 0 10px 0px #000;
+    }
+  
+    .h5{
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 18px;
+      text-align: center;
+    }
+    .p5{
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 13px;
+      text-align: center;
+    }
+  
+
+    /* ninth section */
+
+    .ninth{
+      height: 424px;
+      width: 100%;
+      background-color: #cdd6d8;
+      margin-top: 100px;
+    }
+
+    .texts{
+      display: flex;
+      gap: 10px;
+      margin: 0px 0px 0px 550px;
+    }
+    .texts h1{
+      font-family: "Nunito", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      margin-top: 60px;
+      font-size: 35px;
+    }
+    .texts h2{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      font-size: 33px;
+      margin-top: 59px;
+    }
+
+    .programs{
+      display: flex;
+      gap: 25px;
+      margin: 10px 0px 0px 260px;
+    }
+    .programs i{
+      font-size: 50px;
+    }
+    .prog{
+      background-color: whitesmoke;
+      height: 160px;
+      width: 185px;
+      border-radius: 10px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .t1{
+      margin-top: 32px;
+    }
+
+    .react{
+      background-color: whitesmoke;
+      height: 160px;
+      width: 185px;
+      border-radius: 10px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .t2{
+      margin-top: 32px;
+    }
+
+    .database{
+      background-color: whitesmoke;
+      height: 160px;
+      width: 185px;
+      border-radius: 10px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .t3{
+      margin-top: 32px;
+    }
+
+    .puzzle{
+      background-color: whitesmoke;
+      height: 160px;
+      width: 185px;
+      border-radius: 10px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .t4{
+      margin-top: 32px;
+    }
+
+    .script{
+      background-color: whitesmoke;
+      height: 160px;
+      width: 185px;
+      border-radius: 10px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .t5{
+      margin-top: 32px;
+    }
+
+    .last{
+      text-align: center;
+      margin-top: 50px;
+      color: rgb(14, 144, 225);
+    }
+    .last:hover{
+      color: rgb(96, 177, 227);
+      cursor: pointer;
+    }
+
+
+    /* tenth section */
+
+    .tenth{
+      margin-top: 120px;
+      text-align: center;
+    }
+    .f1{
+      color: #515151;
+    }
+    .f2{
+      height: 60px;
+      width: 390px;
+      background-color: #c1f5f6;
+      margin-left: 560px;
+      font-family: "Nunito", sans-serif;
+      font-weight: 1000;
+      font-style: normal;
+      font-size: 26px;
+      text-align: center;
+      margin-top: -20px;
+      color: #515151;
+    }
+    .f3{
+      /* when u need to make text at center of box then use padding */
+      padding: 2px;
+      background-color: #00ccd0;
+      margin-left: 610px;
+      text-align: center;
+      font-size: 11px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 19%;
+      margin-top: 38px;
+      border-radius: 10px;
+      color: #ffffff;
+      /* 3d box shadow */
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .f3:hover{
+      background-color: #48d9db;
+      cursor: pointer;
+    }
+
+
+    /* footer section */
+    .main{
+      height: 375px;
+      width: 100%;
+      background: linear-gradient(90deg, rgba(11,10,36,1) 0%, rgba(128,134,126,1) 47%, rgba(64,89,95,1) 100%);
+      margin-top: 160px;
+      text-align: center;
+      color: white;
+    }
+    .head{
+      /* background-color: #00ccd0; */
+      height: 50px;
+      width: 1300px;
+      font-size: 15px;
+      margin-left: 85px;
+    }
+
+    .icon{
+      font-size: 35px;
+      margin: 80px 0px 0px 700px;
+      display: flex;
+      gap: 25px;
+    }
+    .icon1{
+      color: #e5e0e0;
+    }
+    .iconhover:hover{
+      color: white;
+      cursor: pointer;
+    }
+    .email{
+      font-size: 16px;
+      margin: 36px 0px 0px 40px;
+    }
+
+    .info{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 70px;
+    }
+
+    .tags{
+      display: flex;
+      gap: 30px;
+      margin-left: 110px;
+    }
+    .tags a{
+      color: white;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    
+    .write{
+      margin: -20px 130px 0px 0px;
+    }
+
+
+/* Media query for screens smaller than 768px */
+
+/* Default styles */
+
+/* Media query for tablet screens */
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+  }
+  nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .second {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .second .text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .third {
+    flex-direction: column;
+    align-items: center;
+  }
+  .third .sec1, .third .sec2, .third .sec3, .third .sec4 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Media query for phone screens */
+@media only screen and (max-width: 480px) {
+  nav .dropdown-content {
+    min-width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+  .second .text {
+    font-size: 1.2em;
+  }
+  .fourth, .seventh {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .fifth, .eighth {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ninth {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tenth {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .main {
+    padding: 20px;
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 320px) {
+  nav {
+    padding: 10px;
+  }
+  nav .container {
+    max-width: 100%;
+  }
+  nav .company-logo img {
+    width: 100px;
+  }
+  .second .text {
+    font-size: 1em;
+  }
+}
